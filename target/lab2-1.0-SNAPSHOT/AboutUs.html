@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Wing Tavern</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="img">
+</head>
+<body>
+<style>
+    .background-image {
+        background-image: url('img/НКВД.png');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Добавляем высоту для растяжения на всю длину экрана */
+    }
+    .navbar1 {
+        background-color: #146c43; /* Замените #f0f0f0 на цвет, который вы хотите использовать */
+    }
+</style>
+
+<div class="container-fluid p-0 background-image">
+    <div class="row">
+        <div class="col-12 text-center text-white">
+            <h1>Немного</h1>
+            <h1>о нас</h1>
+            <div class="btn-group btn-group-block" role="group" aria-label="Basic example">
+                <form method="GET" action="Main">
+                    <button type="submit" class="btn btn-primary btn-block">Главная</button>
+                </form>
+                <form method="GET" action="AboutUs">
+                    <button type="submit" class="btn btn-primary btn-block">О нас</button>
+                </form>
+                <form method="GET" action="TimeTableGames">
+                    <button type="submit" class="btn btn-primary btn-block">Расписание</button>
+                </form>
+                <form method="GET" action="Contacts">
+                    <button type="submit" class="btn btn-primary btn-block">Контакты</button>
+                </form>
+                <form method="GET" action="FeedBack">
+                    <button type="submit" class="btn btn-primary btn-block">Обратная связь</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="accordion" id="accordionExample" style="margin-top: 75px; background-color: #9eeaf9">
+        <div class="accordion-item" style="background-color: #9eeaf9">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Определение
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Dragon Wing Tavern -</strong> это клуб настольно-ролевых игр, цель которого просвящать молодое поколение о прекрасном, интересном и полезном занятии, которое может развить различные навыки в жизни. Наша история начинается с далекого 2018 года, когда мы впервые стали проводить собрания по настольным играм, и только только учиться DnD.
+                </div>
+                <div class="accordion-body">
+                Наши первые игры - такие прекрасные воспоминания... Мы познакомились с многими игроками, делились эмоциями и впечатлениями от проведенных часов по вечерам. Мы знакомились с косплеерами, участовали в фестах, а после появилось молодое некое движение "#Врасфокусе".
+                </div>
+                <div class="accordion-body">
+                    <strong>#Врасфокусе -</strong> это команда творческих и интересных людей. Цель команды - это проявление творчества и создание медиаконтента. Однако не все шло гладко, как хотелось, и, к сожалению, наша группа #ВРасфокусе была расформирована в связи с конфликтами в команде.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item" style="background-color: #9eeaf9">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Мероприятия
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Мы уже долгое время работаем в сфере настольных игр, и за это время смогли провести ряд мероприятий, нацеленных на развитие настольных игр среди молодежи.
+                </div>
+                <div class="accordion-body">
+                <strong>НКВД -</strong> это одно из наших движений, сформированной соввсем недавно, однако это не новый проект, а следствие огрмоных трудов нашей команды, которое изо дня в день стремиться развивать себя, свои навыки и наше общее дело - настольные игры. Мы нацелены развивавать и дальше наш клуб.
+                </div>
+                <div class="accordion-body">
+                    <strong>Город засыпает -</strong> мероприятие, которое мы посвятили настольной тактической игре "Мафия", цель которой развить навыки коммуникации и смекалки среди игроков. Мероприятие было проведено на базе ОмГТУ
+                </div>
+                <div class="accordion-body">
+                    <strong>#Помни -</strong> это целый проект, направленный на патриотическое воспитание молодежи в рамках турнира "Лучшее Профбюро ОмГТУ". Нам досталась эта тема на предпоследнем этапе ЛПБ, а мы тем самым представили одно из наших мероприятий - встреча с участником СВО, который отвечал на вопросы студентов
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item" style="background-color: #9eeaf9">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Планы на будущее
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                Мы добьемся огромных высот, к которым стремимся! Но нужно немного времени...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

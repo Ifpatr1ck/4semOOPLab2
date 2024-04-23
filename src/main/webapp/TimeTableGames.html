@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Wing Tavern</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="img">
+</head>
+<body>
+<style>
+    .background-image {
+        background-image: url('img/НКВД.png');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Добавляем высоту для растяжения на всю длину экрана */
+    }
+</style>
+
+<div class="container-fluid p-0 background-image">
+    <div class="row">
+        <div class="col-12 text-center text-white">
+            <h1>Расписание</h1>
+            <h1>игр</h1>
+            <div class="btn-group btn-group-block" role="group" aria-label="Basic example">
+                <form method="GET" action="Main">
+                    <button type="submit" class="btn btn-primary btn-block">Главная</button>
+                </form>
+                <form method="GET" action="AboutUs">
+                    <button type="submit" class="btn btn-primary btn-block">О нас</button>
+                </form>
+                <form method="GET" action="TimeTableGames">
+                    <button type="submit" class="btn btn-primary btn-block">Расписание</button>
+                </form>
+                <form method="GET" action="Contacts">
+                    <button type="submit" class="btn btn-primary btn-block">Контакты</button>
+                </form>
+                <form method="GET" action="FeedBack">
+                    <button type="submit" class="btn btn-primary btn-block">Обратная связь</button>
+                </form>
+            </div>
+        </div>
+        <table class="table" style="width: 60rem; margin: auto; margin-top: 75px;  background-color: #9eeaf9; border-color: #1a1d20; border:2px;">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Мероприятие</th>
+                <th scope="col">Адрес</th>
+                <th scope="col">Дата</th>
+                <th scope="col">Время</th>
+            </tr>
+            </thead>
+            <tbody class="table-group-divider">
+            <tr>
+                <th scope="row">1</th>
+                <td>Мафия</td>
+                <td>ОмГТУ 8-516</td>
+                <td>23.04.2024</td>
+                <td>17:00</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Манчкин</td>
+                <td>ОмГТУ 8-408</td>
+                <td>27.04.2024</td>
+                <td>16:50</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>magic the gathering</td>
+                <td>306 квадратов</td>
+                <td>04.05.2024</td>
+                <td>15:00</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>DnD</td>
+                <td>ОмГТУ Точка кипения</td>
+                <td>10.05.2024</td>
+                <td>14:20</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Гвинт</td>
+                <td>ОмГТУ Точка кипения</td>
+                <td>16.05.2024</td>
+                <td>17:20</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>DnD</td>
+                <td>306 квадратов</td>
+                <td>21.05.2024</td>
+                <td>18:00</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Манчкин</td>
+                <td>ОмГТУ Точка кипения</td>
+                <td>01.06.2024</td>
+                <td>14:20</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
